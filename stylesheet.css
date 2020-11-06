@@ -1,0 +1,215 @@
+* {
+ box-sizing: border-box;
+}
+ 
+.blok {
+ max-width: 100%;
+ margin: 0;
+ font-family: "Tahoma";
+}
+
+/*-- Bagian Slideshow --*/
+.slideshow-container {
+ max-width: 100%;
+ position: relative;
+ margin: auto;
+}
+
+/*-- Tombol Next & Previous Slideshow --*/
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 0;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+}
+
+/*-- Posisi tombol Next Slideshow --*/
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* Efek hover tombol next slideshow --*/
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Text caption slideshow */
+.text {
+ color: #fff;
+ font-size: auto;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: auto;
+ text-align: right;
+ background-color: #000;
+ opacity: 0.7;
+}
+
+/* Number text slideshow */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* Dots/bullets/indikator slideshow */
+.dot {
+ cursor:pointer;
+ height: 13px;
+ width: 13px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* animasi slideshow */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+/*--Bagian Utama (Main)--*/
+.utama {
+ color; #42878a;
+}
+
+.blok-utama {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-align: center;
+}
+.utama h1 {
+	font-size: 60px;
+
+	font-family: arial;
+}
+/*--Bagian Tubuh--*/
+.tubuh {
+ color: black;
+}
+.tubuh h1 {
+font-family : Arial;
+color : #ffff;
+font-size: 40px;
+}
+
+.tubuh-materi {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.materi-box {
+ border-radius: 10px;
+ padding: 10px 10px;
+ margin: 5px auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #006064;
+}
+
+
+.blok-tubuh {
+ padding-top: 50px;
+ padding-bottom: 50px;
+ text-align: center;
+ background-color: #8aa9ab;
+}
+
+.materi-img {
+ width: 200px;
+ height: 200px;
+ padding: 5px 5px;
+}
+
+/*--Bagian Tim--*/
+.tim {
+ color: white;
+}
+
+.blok-tim {
+ padding-top: 15px;
+ padding-bottom: 15px;
+ text-align: center;
+ background-image : url(B1.jpg); 
+background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.tim-anggota {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 10px 10px;
+}
+
+.tim-box {
+
+ width: 250px;
+ height: 450px;
+ border-radius: 10px;
+ padding: 10px 10px;
+ margin: 5px auto;
+}
+
+.tim-img {
+ width: 200px;
+ height: 200px;
+}
+
+/*--Bagian Footer--*/
+.footer {
+ background-color: #006064;
+ color: white;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+}
+
+.tim-box p {
+  text-align: justify;
+}

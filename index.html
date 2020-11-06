@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART TKJ</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" type="text/css" href="luxbar.css">
+  <link rel="shortcut icon" href="logo.ico">
+</head>
+<body class="blok">
+<div>
+	<!-- Bagian Header -->
+	<!-- Navigasi -->
+	<header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-green">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+		<img src="logo.png" height="90%">
+                <a href="#" class="luxbar-brand">SMART TKJ</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item"><a href="#">Beranda</a></li>
+            <li class="luxbar-item"><a href="#pelajaran">Tentang Kami</a></li>
+            <li class="luxbar-item"><a href="#tim">Materi</a></li>
+			<li class="luxbar-item"><a href="#">Lainnya</a></li>
+        </ul>
+    </div>
+	</header>
+	<!-- Bagian Slideshow -->
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="slide1.jpg" style="width:100%">
+			<div class="text">Percobaan Teks Slide 1 menggunakan foto</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<img src="slide2.jpg" style="width:100%">
+			<div class="text">Percobaan Teks Slide 2 menggunakan foto</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img src="slide3.jpg" style="width:100%">
+			<div class="text">Percobaan Teks Slide 3 menggunakan foto</div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+
+<!-- Bagian Main (Utama) -->
+	<div id="welcome" class="blok-utama">
+	<div class="slide-in-left">
+	<div class="utama">
+		<h2>SELAMAT DATANG</h2>
+		<h1>DI SMART TKJ</h1>
+		<h3>dibuat untuk proyek kelompok yang diselenggarakan Progate</h3>
+		<p>Ready Set Code Batch II Tahun 2020 - Modul Frontend</p>
+		<div class="btn-wrapper">
+		
+		<p> Mari bergabung bersama kami, Keren pastinya bisa HTML, CSS, JAVASCRIPT dan Node JS</p>
+          
+		  <a href="https://progate.com/" class="btn signup">Daftar Sekarang</a>
+          
+        </div>
+	</div>
+	</div>
+	</div>
+<!-- Bagian Artikel (body) -->
+	<div id="pelajaran" class="blok-tubuh">
+	<div class="slide-in-left">
+	<div class="tubuh">
+		<h1>SMART TKJ</h1>
+		<p> BERIKUT ANGGOTA KELOMPOK B-06<p>
+		<div class="tubuh-materi">
+		<div class="materi-box">
+			<img class="materi-img" src="zs.png" alt="Zafar Sitinjak">
+			<h3> Zafar Sitinjak</h3>
+			<p>SMKS MUHAMMADIYAH 11 SIBULUAN </p>
+			<p>TAPANULI TENGAH </p>
+			
+		</div>
+		<div class="materi-box">
+			<img class="materi-img" src="wat.png" alt="Wina Agustina Tarigan">
+			<h3>Wina Agustina Tarigan</h3>
+			<p>SMK NEGERI 2 KOTA JAMBI</p>
+		</div>
+		<div class="materi-box">
+			<img class="materi-img" src="RS.png" alt="Rahmat Setiawan">
+			<h3>Rahmat Setiawan</h3>
+			<p>SMK NEGERI 1 CIJATI</p>
+		</div>
+		<div class="materi-box">
+			<img class="materi-img" src="rsp.png" alt="Retno Satika Putri">
+			<h3>Retno Satika Putri</h3>
+			<p>SMK NEGERI 1 MOJOANYAR </p>
+			<p>MOJOKERTO</p>
+		</div>
+		
+		</div>
+	</div>
+	</div>
+	</div>
+<!-- Bagian Anggota Tim -->
+	<div id="tim" class="blok-tim">
+	<div class="slide-in-left">
+	<div class="tim">
+		<h1>MATERI</h1>
+		<div class="tim-anggota">
+			<div class="tim-box">
+				<img class="tim-img" src="html.png">
+				<h3>Komputer Dan Jaringan Dasar</h3>
+				<p>Sesuai dengan nama jurusannya, maka Kamu pun akan diajari tentang perihal komputer dan jaringan dasarnya. Mulai dari materi hardware, perkembangan jaringan, hingga bagian-bagian lainnya.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="css.png">
+				<h3>Pemrograman Dasar</h3>
+				<p>Bagi Kamu yang mengenyam pendidikan di TKJ, maka Kamu juga harus memahami apa itu pemrograman. Ilmu yang berisi coding untuk sebuah operasi komputer ini memungkinkanmu mempelajari banyak hal.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="js.png">
+				<h3>Teknologi Jaringan Berbasis Luas</h3>
+				<p>Kamu akan belajar soal diagnosa kerusakan jaringan, perbaikannya, hingga pembuatan jaringan seperti LAN, WAN, atau internet.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="node.png">
+				<h3>Administrasi Infrastruktur Jaringan</h3>
+				<p>Kamu akan mempelajari macam-macam konfigurasi jaringan, baik itu Cisco, Mikrotik, dan jaringan-jaringan lainnya. Selain itu, akan belajar konfigurasi server dimana Kamu dipersiapkan menjadi seorang administrator jaringan.</p>
+			</div>
+		</div>
+		<div class="tim-anggota">
+			<div class="tim-box">
+				<img class="tim-img" src="html.png">
+				<h3>Simulasi Dan Komunikasi Digital</h3>
+				<p>Proses meniru bentuk visual yang dideskripsi dalam model gambar, grafis, atau kata ini juga akan Kamu pelajari di TKJ. Oleh sebab itu, Kamu harus benar-benar mahir dalam bidang analitik agar Kamu dapat memahami perilaku dari suatu sistem itu sendiri.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="css.png">
+				<h3>Dasar Desain Grafis</h3>
+				<p>Di mata pelajaran ini, Kamu akan belajar cara mendesain dalam bentuk grafis. Ilmu ini sangat penting dan berguna bahkan ketika Kamu lulus nanti.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="js.png">
+				<h3>Administrasi Sistem Jaringan</h3>
+				<p>Disini, Kamu akan belajar soal Sistem Operasi beserta proses instalasinya. Biasanya, OS ini memungkinkan untuk melayani banyak service, mulai dari pinter, HTTP, hingga DNS Service.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="node.png">
+				<h3>Teknologi Layanan Jaringan</h3>
+				<p>Kamu akan belajar mengenai apa saja layanan yang dirancang dan dibangun dengan tujuan untuk melayani pengguna meski dari banyak perangkat yang berbeda.</p>
+			</div>
+		</div>
+		<div class="tim-anggota">
+			<div class="tim-box">
+				<img class="tim-img" src="html.png">
+				<h3>Produk Kreatif Dan Kewirausahaan</h3>
+				<p>Belajar di jurusan TKJ bukan berarti Kamu tidak bisa berwirausaha. Pasalnya di mata pelajaran ini, Kamu akan diajari soal kreativitas dan wirausaha sehingga bisa Kamu jadikan modal untuk kedepannya.</p>
+			</div>
+			<div class="tim-box">
+				<img class="tim-img" src="css.png">
+				<h3>Pengetahuan Dasar</h3>
+				<p>Terakhir, Kamu pun akan belajar mengenai berbagai mata pelajaran dasar layaknya di SMA. Contohnya saja Matematika, Bahasa Indonesia, hingga Bahasa Inggris dan Agama.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+<!-- Bagian Footer -->
+	<div id="end" class="footer">
+		<p>TEKNIK KOMPUTER JARINGAN | SMK MA'ARIF NU TIRTO | 2020 - SMART TKJ</p4>
+	
+	
+    </div>
+	</div>
+
+      
+</div>
+<script src="slideshow.js"></script>
+</body>
+</html>
